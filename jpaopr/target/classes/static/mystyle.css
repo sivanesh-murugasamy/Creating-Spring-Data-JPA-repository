@@ -1,0 +1,123 @@
+.search-button:hover {
+    background-color: #550000;
+  }
+  
+  .search-button i {
+    color: #fff;
+  }
+  
+  /* You'll need to include the Font Awesome library for the search icon */
+  #image
+  
+  {
+    position: absolute;
+    align-items: center;
+    width: 20%;
+  }
+  .animated-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .animated-button:hover {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .button-container {
+    text-align: right;
+    margin-top: -70px;
+    
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  
+    border-radius: 4px;
+    padding: 4px;
+    width: 300px;
+  }
+
+  .search-container input[type="text"] {
+    flex: 1;
+ 
+    padding: 12px;
+    font-size: 16px;
+    background-color: #141414;
+  }
+  .search-container button {
+      border: none;
+     width: 100px;
+     height: 50px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 0 4px 4px 0;
+    }
+
+    #link-button
+    {
+      color:inherit;
+      text-decoration: none;
+      cursor: pointer;
+
+    }
+
+.search-container
+{
+  position: absolute;
+  align-items: center;
+  width: 680px;
+    height: 40px;
+ background-color: #ccc;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.4s ease-in-out;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 25%;
+
+  
+}
+#text
+{
+    color: #ffffff;
+    margin-top: 30%;
+    transition: 2s;
+   text-align: center; 
+   
+}
+    
+ #table
+ {
+  padding: 30px;
+  text-align: center;
+  margin-left: 30%;
+ }
+
+
+image-container {
+  display: flex;
+}
+
+.image-container img {
+  flex: 1;
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.newde
+{
+  align-items: center;
+  text-align: center;
+}

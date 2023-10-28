@@ -1,0 +1,24 @@
+<html>
+  <head>
+       <title>Home</title>
+       <link rel="stylesheet" href="" th:href="@{/form.css}">
+  </head>
+ <body>
+    <div style="margin-left: 7.5pc;">
+      <a th:href="@{/add_user}" class="fut">Add New User</a>
+    </div>
+     <div class="card">
+      <section th:each="user:${users}">
+        <div style="font-family: 'Montserrat', sans-serif;">
+        <h3>Name: [[${user.name}]]</h3>
+        <h3>Age: [[${user.age}]]</h3>
+        <h3>Email: [[${user.email}]]</h3>
+        <h3>Country: [[${user.country}]]</h3>
+        <h3>Reason: [[${user.reason}]]</h3>
+      </div>
+        <a th:href="@{'delete/user'+ ${user.id}}" class="fut">Delete User</a>&nbsp;
+        <a th:href="@{'update/user'+ ${user.id}}" class="fut">Update User</a>
+      </section>
+    </div>
+  </body> 
+</html>

@@ -1,0 +1,30 @@
+.attractive-text {
+    font-family: 'Bangers', cursive;
+    font-size: 36px;
+    color: #ff0000;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 2px;
+  }
+  @keyframes movingLine {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  hr {
+    margin:  auto;
+    border: none;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    animation: movingLine 5s linear infinite;
+  }
+  body
+  {
+    background-image: linear-gradient(rgb(19, 13, 13),rgb(12, 8, 8,0.6),rgba(8, 6, 6, 0.6));
+    width: 100%;
+    height: 100%;
+    
+  }

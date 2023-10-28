@@ -1,0 +1,148 @@
+/* Apply a modern and clean overall style to the form */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for form headings */
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style for form fields and labels */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Style for form buttons */
+  .form-button {
+    display: block;
+    width: 40%;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #dbad14;
+  }
+  
+  /* Style for form success or error messages */
+  .form-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .border  {
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+    color: #687FAC;
+}
+
+.form-but {
+    display: block;
+    width: 40%;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+    background-color: #722828;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-but:hover {
+    background-color: #dbad14;
+  }
+
+  
+
+
+/* Card */
+/* CSS for the card container */
+.card {
+    width: 300px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+  }
+  
+  /* CSS for card heading */
+  .card h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* CSS for card content */
+  .card p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  /* CSS for card image (optional) */
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+/* fut*/
+.fut {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline for the link */
+    border-radius: 5px;
+    margin-top: 10px; /* Adjust spacing between content and button */
+    transition: background-color 0.3s ease; /* Add a hover effect */
+  }
+  
+  .fut:hover {
+    background-color: #0056b3; /* Change color on hover */
+  }
+  
+  
+  
+  
+  
+  
